@@ -1,0 +1,22 @@
+name: Build and Publish
+
+on:
+  push:
+    branches:
+    - main
+
+
+jobs:
+  pack:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          submodules: 'true'
+
+      - name: Pack the project
+        run: nuget pack .\OSPSuite.DevExpress.nuspec
+  
+      - name: Publish to GitHub registry
+        run: dotnet nuget push *.nupkg --source https://nuget.pkg.github.com/${{github.repository_owner}}/index.json --api-key ${{ secrets.GITHUB_TOKEN }}
