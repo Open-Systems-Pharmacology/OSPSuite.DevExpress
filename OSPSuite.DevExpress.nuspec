@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>OSPSuite.DevExpress</id>
+    <version>21.2.15</version>
+    <authors>Open-Systems-Pharmacology</authors>
+    <owners>Open-Systems-Pharmacology</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE.md</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>images\logo.png</icon>
+    <description>DevExpress components used by the Open Systems Pharmacology Suite. To inquire about purchasing a license, please contact DevExpress at: http://www.devexpress.com</description>
+    <copyright>Copyright © 2025 - Open Systems Pharmacology Community</copyright>
+    <tags>open-systems-pharmacology</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="assemblies\DevExpress.BonusSkins.v21.2.dll" target="lib\net45" />
+    <file src="assemblies\DevExpress.Charts.v21.2.Core.dll" target="lib\net45" />
+    <file src="assemblies\DevExpress.Data.Desktop.v21.2.dll" target="lib\net45" />
+    <file src="assemblies\DevExpress.Data.v21.2.dll" target="lib\net45" />
+    <file src="assemblies\DevExpress.Images.v21.2.dll" target="lib\net45" />
+    <file src="assemblies\DevExpress.Office.v21.2.Core.dll" target="lib\net45" />
+    <file src="assemblies\DevExpress.Pdf.v21.2.Core.dll" target="lib\net45" />
+    <file src="assemblies\DevExpress.PivotGrid.v21.2.Core.dll" target="lib\net45" />
+    <file src="assemblies\DevExpress.Printing.v21.2.Core.dll" target="lib\net45" />
+    <file src="assemblies\DevExpress.RichEdit.v21.2.Core.dll" target="lib\net45" />
+    <file src="assemblies\DevExpress.RichEdit.v21.2.Export.dll" target="lib\net45" />
+    <file src="assemblies\DevExpress.Utils.v21.2.dll" target="lib\net45" />
+    <file src="assemblies\DevExpress.XtraBars.v21.2.dll" target="lib\net45" />
+    <file src="assemblies\DevExpress.XtraCharts.v21.2.dll" target="lib\net45" />
+    <file src="assemblies\DevExpress.XtraCharts.v21.2.UI.dll" target="lib\net45" />
+    <file src="assemblies\DevExpress.XtraCharts.v21.2.Wizard.dll" target="lib\net45" />
+    <file src="assemblies\DevExpress.XtraDialogs.v21.2.dll" target="lib\net45" />
+    <file src="assemblies\DevExpress.XtraEditors.v21.2.dll" target="lib\net45" />
+    <file src="assemblies\DevExpress.XtraGrid.v21.2.dll" target="lib\net45" />
+    <file src="assemblies\DevExpress.XtraLayout.v21.2.dll" target="lib\net45" />
+    <file src="assemblies\DevExpress.XtraNavBar.v21.2.dll" target="lib\net45" />
+    <file src="assemblies\DevExpress.XtraPivotGrid.v21.2.dll" target="lib\net45" />
+    <file src="assemblies\DevExpress.XtraPrinting.v21.2.dll" target="lib\net45" />
+    <file src="assemblies\DevExpress.XtraRichEdit.v21.2.dll" target="lib\net45" />
+    <file src="assemblies\DevExpress.XtraTreeList.v21.2.dll" target="lib\net45" />
+    <file src="assemblies\DevExpress.XtraVerticalGrid.v21.2.dll" target="lib\net45" />
+
+    <file src=".\LICENSE.md" target=".\" />
+    <file src=".\logo.png" target=".\images" />
+  </files>
+</package>
