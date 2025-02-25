@@ -15,7 +15,7 @@ jobs:
           submodules: 'true'
 
       - name: Pack the project
-        run: nuget pack .\OSPSuite.DeveExpress.nuspec
+        run: nuget pack .\OSPSuite.DevExpress.nuspec
   
       - name: Push nupkg as artifact
         uses: actions/upload-artifact@v4
