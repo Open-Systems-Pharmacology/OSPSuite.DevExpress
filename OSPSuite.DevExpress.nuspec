@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>OSPSuite.DevExpress</id>
-    <version>21.2.15</version>
+    <version>21.2.15.1</version>
     <authors>Open-Systems-Pharmacology</authors>
     <owners>Open-Systems-Pharmacology</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -13,36 +13,36 @@
     <copyright>Copyright © 2025 - Open Systems Pharmacology Community</copyright>
     <tags>open-systems-pharmacology</tags>
     <dependencies>
-      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework=".NETStandard2.0" />
     </dependencies>
   </metadata>
   <files>
-    <file src="assemblies\DevExpress.BonusSkins.v21.2.dll" target="lib\net45" />
-    <file src="assemblies\DevExpress.Charts.v21.2.Core.dll" target="lib\net45" />
-    <file src="assemblies\DevExpress.Data.Desktop.v21.2.dll" target="lib\net45" />
-    <file src="assemblies\DevExpress.Data.v21.2.dll" target="lib\net45" />
-    <file src="assemblies\DevExpress.Images.v21.2.dll" target="lib\net45" />
-    <file src="assemblies\DevExpress.Office.v21.2.Core.dll" target="lib\net45" />
-    <file src="assemblies\DevExpress.Pdf.v21.2.Core.dll" target="lib\net45" />
-    <file src="assemblies\DevExpress.PivotGrid.v21.2.Core.dll" target="lib\net45" />
-    <file src="assemblies\DevExpress.Printing.v21.2.Core.dll" target="lib\net45" />
-    <file src="assemblies\DevExpress.RichEdit.v21.2.Core.dll" target="lib\net45" />
-    <file src="assemblies\DevExpress.RichEdit.v21.2.Export.dll" target="lib\net45" />
-    <file src="assemblies\DevExpress.Utils.v21.2.dll" target="lib\net45" />
-    <file src="assemblies\DevExpress.XtraBars.v21.2.dll" target="lib\net45" />
-    <file src="assemblies\DevExpress.XtraCharts.v21.2.dll" target="lib\net45" />
-    <file src="assemblies\DevExpress.XtraCharts.v21.2.UI.dll" target="lib\net45" />
-    <file src="assemblies\DevExpress.XtraCharts.v21.2.Wizard.dll" target="lib\net45" />
-    <file src="assemblies\DevExpress.XtraDialogs.v21.2.dll" target="lib\net45" />
-    <file src="assemblies\DevExpress.XtraEditors.v21.2.dll" target="lib\net45" />
-    <file src="assemblies\DevExpress.XtraGrid.v21.2.dll" target="lib\net45" />
-    <file src="assemblies\DevExpress.XtraLayout.v21.2.dll" target="lib\net45" />
-    <file src="assemblies\DevExpress.XtraNavBar.v21.2.dll" target="lib\net45" />
-    <file src="assemblies\DevExpress.XtraPivotGrid.v21.2.dll" target="lib\net45" />
-    <file src="assemblies\DevExpress.XtraPrinting.v21.2.dll" target="lib\net45" />
-    <file src="assemblies\DevExpress.XtraRichEdit.v21.2.dll" target="lib\net45" />
-    <file src="assemblies\DevExpress.XtraTreeList.v21.2.dll" target="lib\net45" />
-    <file src="assemblies\DevExpress.XtraVerticalGrid.v21.2.dll" target="lib\net45" />
+    <file src="assemblies\DevExpress.BonusSkins.v21.2.dll" target="lib\netstandard2.0" />
+    <file src="assemblies\DevExpress.Charts.v21.2.Core.dll" target="lib\netstandard2.0" />
+    <file src="assemblies\DevExpress.Data.Desktop.v21.2.dll" target="lib\netstandard2.0" />
+    <file src="assemblies\DevExpress.Data.v21.2.dll" target="lib\netstandard2.0" />
+    <file src="assemblies\DevExpress.Images.v21.2.dll" target="lib\netstandard2.0" />
+    <file src="assemblies\DevExpress.Office.v21.2.Core.dll" target="lib\netstandard2.0" />
+    <file src="assemblies\DevExpress.Pdf.v21.2.Core.dll" target="lib\netstandard2.0" />
+    <file src="assemblies\DevExpress.PivotGrid.v21.2.Core.dll" target="lib\netstandard2.0" />
+    <file src="assemblies\DevExpress.Printing.v21.2.Core.dll" target="lib\netstandard2.0" />
+    <file src="assemblies\DevExpress.RichEdit.v21.2.Core.dll" target="lib\netstandard2.0" />
+    <file src="assemblies\DevExpress.RichEdit.v21.2.Export.dll" target="lib\netstandard2.0" />
+    <file src="assemblies\DevExpress.Utils.v21.2.dll" target="lib\netstandard2.0" />
+    <file src="assemblies\DevExpress.XtraBars.v21.2.dll" target="lib\netstandard2.0" />
+    <file src="assemblies\DevExpress.XtraCharts.v21.2.dll" target="lib\netstandard2.0" />
+    <file src="assemblies\DevExpress.XtraCharts.v21.2.UI.dll" target="lib\netstandard2.0" />
+    <file src="assemblies\DevExpress.XtraCharts.v21.2.Wizard.dll" target="lib\netstandard2.0" />
+    <file src="assemblies\DevExpress.XtraDialogs.v21.2.dll" target="lib\netstandard2.0" />
+    <file src="assemblies\DevExpress.XtraEditors.v21.2.dll" target="lib\netstandard2.0" />
+    <file src="assemblies\DevExpress.XtraGrid.v21.2.dll" target="lib\netstandard2.0" />
+    <file src="assemblies\DevExpress.XtraLayout.v21.2.dll" target="lib\netstandard2.0" />
+    <file src="assemblies\DevExpress.XtraNavBar.v21.2.dll" target="lib\netstandard2.0" />
+    <file src="assemblies\DevExpress.XtraPivotGrid.v21.2.dll" target="lib\netstandard2.0" />
+    <file src="assemblies\DevExpress.XtraPrinting.v21.2.dll" target="lib\netstandard2.0" />
+    <file src="assemblies\DevExpress.XtraRichEdit.v21.2.dll" target="lib\netstandard2.0" />
+    <file src="assemblies\DevExpress.XtraTreeList.v21.2.dll" target="lib\netstandard2.0" />
+    <file src="assemblies\DevExpress.XtraVerticalGrid.v21.2.dll" target="lib\netstandard2.0" />
 
     <file src=".\LICENSE.md" target=".\" />
     <file src=".\logo.png" target=".\images" />
